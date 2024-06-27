@@ -16,7 +16,7 @@ export const initLucidBlockfrost = async (): Promise<Lucid> => {
   return lucid;
 };
 
-export const createTokenPool = async () => {
+export const createPool = async () => {
   const lucid = await initLucidBlockfrost();
   lucid.selectWalletFromSeed("seed");
 
@@ -42,4 +42,5 @@ export const createTokenPool = async () => {
   const txSigned = await txComplete.sign().complete();
   const txHash = await txSigned.submit();
 
+  return txHash;
 };
