@@ -11,7 +11,7 @@
   "dependencies": {
     "@sundaeswap/asset": "^1.0.5",
     "@sundaeswap/bigint-math": "^0.6.3",
-    "@sundaeswap/core": "^1.2.0",
+    "@sundaeswap/core": "^1.2.3",
     "@sundaeswap/cpp": "^1.0.5",
     "@sundaeswap/fraction": "^1.0.5",
     "lucid-cardano": "^0.10.7",
